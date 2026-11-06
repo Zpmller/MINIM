@@ -1,0 +1,10 @@
+Cross-partition identical visible graph groups: 0
+Lookup training unique tree/task graphs: 300
+Lookup training unique tree/task graphs: 600
+Lookup training unique tree/task graphs: 900
+Traceback (most recent call last):
+  File "<PROJECT>/scripts/audit_ce_integrity.py", line 164, in <module>
+    if __name__=='__main__': main()
+  File "<PROJECT>/scripts/audit_ce_integrity.py", line 131, in main
+    assert torch.equal(s,ss) and torch.equal(n,nn)
+AssertionError

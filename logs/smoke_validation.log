@@ -1,0 +1,29 @@
+{
+  "prediction_runs": {
+    "mlp": {
+      "variants": 3,
+      "action_counts": {
+        "K": 268
+      }
+    },
+    "gat_bs4": {
+      "variants": 3,
+      "action_counts": {
+        "K": 268
+      }
+    },
+    "gat_bs8": {
+      "variants": 3,
+      "action_counts": {
+        "K": 268
+      }
+    },
+    "gat_bs16": {
+      "variants": 3,
+      "action_counts": {
+        "K": 268
+      }
+    }
+  },
+  "kar_policy_unit_checks": "PASS"
+}

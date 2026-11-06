@@ -1,0 +1,4 @@
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 1423.73it/s]
+{'domain': 'gmail', 'nodes': 99, 'cached_vs_uncached_max_abs_error': 2.5166082195937634e-07, 'label_tampering_leaves_features_exactly_unchanged': True, 'cached_labels_match_json': True}
+{'domain': 'reddit', 'nodes': 5104, 'cached_vs_uncached_max_abs_error': 3.6135315895080566e-07, 'label_tampering_leaves_features_exactly_unchanged': True, 'cached_labels_match_json': True}
+{'domain': 'shopping', 'nodes': 1431, 'cached_vs_uncached_max_abs_error': 2.8079375624656677e-07, 'label_tampering_leaves_features_exactly_unchanged': True, 'cached_labels_match_json': True}

@@ -1,0 +1,46 @@
+table,method_or_group,metric,value,unit
+Table1,Full Observation,TCNP,1.0000,ratio
+Table1,Full Observation,TCNP-I,1.0000,ratio
+Table1,Full Observation,TISL,1.0000,ratio
+Table1,Random Budget,TCNP,0.2284,ratio
+Table1,Random Budget,TCNP-I,0.2346,ratio
+Table1,Random Budget,TISL,0.1971,ratio
+Table1,Sensitivity-Only,TCNP,0.0401,ratio
+Table1,Sensitivity-Only,TCNP-I,0.0393,ratio
+Table1,Sensitivity-Only,TISL,0.3799,ratio
+Table1,Necessity-Only,TCNP,0.9445,ratio
+Table1,Necessity-Only,TCNP-I,0.9730,ratio
+Table1,Necessity-Only,TISL,0.2032,ratio
+Table1,MINIM,TCNP,0.9491,ratio
+Table1,MINIM,TCNP-I,0.9931,ratio
+Table1,MINIM,TISL,0.1010,ratio
+Table3,Informational,Keep,8.66,percent
+Table3,Informational,Abstract,0.83,percent
+Table3,Informational,TCNP,0.9156,ratio
+Table3,Informational,TCNP-I,0.9886,ratio
+Table3,Sensitive/Admin,Keep,15.84,percent
+Table3,Sensitive/Admin,Abstract,9.84,percent
+Table3,Sensitive/Admin,TCNP,1.0000,ratio
+Table3,Sensitive/Admin,TCNP-I,1.0000,ratio
+Table3,Transactional,Keep,10.88,percent
+Table3,Transactional,Abstract,3.52,percent
+Table3,Transactional,TCNP,1.0000,ratio
+Table3,Transactional,TCNP-I,1.0000,ratio
+Table4,MINIM,TCNP,0.9491,ratio
+Table4,MINIM,TCNP-I,0.9931,ratio
+Table4,MINIM,TISL,0.1010,ratio
+Table4,Conservative (A->R),TCNP,0.9050,ratio
+Table4,Conservative (A->R),TCNP-I,0.9650,ratio
+Table4,Conservative (A->R),TISL,0.0989,ratio
+Table4,Radical (A->K),TCNP,0.9491,ratio
+Table4,Radical (A->K),TCNP-I,0.9931,ratio
+Table4,Radical (A->K),TISL,0.1014,ratio
+Table10,Gmail,Test N,472,count
+Table10,Gmail,TCNP,0.9661,ratio
+Table10,Gmail,TISL,0.0188,ratio
+Table10,Reddit,Test N,130,count
+Table10,Reddit,TCNP,0.9538,ratio
+Table10,Reddit,TISL,0.1350,ratio
+Table10,Shopping,Test N,60,count
+Table10,Shopping,TCNP,0.9360,ratio
+Table10,Shopping,TISL,0.0085,ratio

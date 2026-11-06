@@ -1,0 +1,68 @@
+Step 1/5: loading manifest
+Step 1/5: sample overlap train-test = 0
+Step 2/5: featurizing variants
+Step 2/5: cached 100/4948 train/validation graphs
+Step 2/5: cached 200/4948 train/validation graphs
+Step 2/5: cached 300/4948 train/validation graphs
+Step 2/5: cached 400/4948 train/validation graphs
+Step 2/5: cached 500/4948 train/validation graphs
+Step 2/5: cached 600/4948 train/validation graphs
+Step 2/5: cached 700/4948 train/validation graphs
+Step 2/5: cached 800/4948 train/validation graphs
+Step 2/5: cached 900/4948 train/validation graphs
+Step 2/5: cached 1000/4948 train/validation graphs
+Step 2/5: cached 1100/4948 train/validation graphs
+Step 2/5: cached 1200/4948 train/validation graphs
+Step 2/5: cached 1300/4948 train/validation graphs
+Step 2/5: cached 1400/4948 train/validation graphs
+Step 2/5: cached 1500/4948 train/validation graphs
+Step 2/5: cached 1600/4948 train/validation graphs
+Step 2/5: cached 1700/4948 train/validation graphs
+Step 2/5: cached 1800/4948 train/validation graphs
+Step 2/5: cached 1900/4948 train/validation graphs
+Step 2/5: cached 2000/4948 train/validation graphs
+Step 2/5: cached 2100/4948 train/validation graphs
+Step 2/5: cached 2200/4948 train/validation graphs
+Step 2/5: cached 2300/4948 train/validation graphs
+Step 2/5: cached 2400/4948 train/validation graphs
+Step 2/5: cached 2500/4948 train/validation graphs
+Step 2/5: cached 2600/4948 train/validation graphs
+Step 2/5: cached 2700/4948 train/validation graphs
+Step 2/5: cached 2800/4948 train/validation graphs
+Step 2/5: cached 2900/4948 train/validation graphs
+Step 2/5: cached 3000/4948 train/validation graphs
+Step 2/5: cached 3100/4948 train/validation graphs
+Step 2/5: cached 3200/4948 train/validation graphs
+Step 2/5: cached 3300/4948 train/validation graphs
+Step 2/5: cached 3400/4948 train/validation graphs
+Step 2/5: cached 3500/4948 train/validation graphs
+Step 2/5: cached 3600/4948 train/validation graphs
+Step 2/5: cached 3700/4948 train/validation graphs
+Step 2/5: cached 3800/4948 train/validation graphs
+Step 2/5: cached 3900/4948 train/validation graphs
+Step 2/5: cached 4000/4948 train/validation graphs
+Step 2/5: cached 4100/4948 train/validation graphs
+Step 2/5: cached 4200/4948 train/validation graphs
+Step 2/5: cached 4300/4948 train/validation graphs
+Step 2/5: cached 4400/4948 train/validation graphs
+Step 2/5: cached 4500/4948 train/validation graphs
+Step 2/5: cached 4600/4948 train/validation graphs
+Step 2/5: cached 4700/4948 train/validation graphs
+Step 2/5: cached 4800/4948 train/validation graphs
+Step 2/5: cached 4900/4948 train/validation graphs
+Step 2/5: cached 4948/4948 train/validation graphs
+Step 3/5: training
+Step 3/5: epoch 1/10 | train_loss=1.1261 | val_loss=1.8327 | val_tcnp=0.8692 | val_tisl=0.5278
+Step 3/5: epoch 2/10 | train_loss=0.4606 | val_loss=1.2513 | val_tcnp=0.9067 | val_tisl=0.3801
+Step 3/5: epoch 3/10 | train_loss=0.3242 | val_loss=1.0244 | val_tcnp=0.9510 | val_tisl=0.4982
+Step 3/5: epoch 4/10 | train_loss=0.2485 | val_loss=0.6940 | val_tcnp=0.9816 | val_tisl=0.1181
+Step 3/5: epoch 5/10 | train_loss=0.1615 | val_loss=0.4863 | val_tcnp=0.9841 | val_tisl=0.0412
+Step 3/5: epoch 6/10 | train_loss=0.1301 | val_loss=0.3170 | val_tcnp=0.9913 | val_tisl=0.0321
+Step 3/5: epoch 7/10 | train_loss=0.0929 | val_loss=0.2654 | val_tcnp=0.9902 | val_tisl=0.0141
+Step 3/5: epoch 8/10 | train_loss=0.0785 | val_loss=0.2308 | val_tcnp=0.9895 | val_tisl=0.0042
+Step 3/5: epoch 9/10 | train_loss=0.0672 | val_loss=0.2020 | val_tcnp=0.9898 | val_tisl=0.0176
+Step 3/5: epoch 10/10 | train_loss=0.0592 | val_loss=0.1783 | val_tcnp=0.9893 | val_tisl=0.0085
+Step 4/5: saving checkpoint and split
+Step 5/5: done
+Saved checkpoint: runs/causal27_20261102/full_ci_ce/model.pt
+Saved split: runs/causal27_20261102/full_ci_ce/split.json

@@ -1,0 +1,12 @@
+official_paper_full: train=4637 variants/120 trees; val=629 variants/15 trees; test excluded from training
+official_paper_full epoch 1/10: loss=2.11992, val micro=0.0000, interactive=0.0000, TISL=0.0000, elapsed=53s
+official_paper_full epoch 2/10: loss=0.99696, val micro=0.0000, interactive=0.0000, TISL=0.0000, elapsed=102s
+official_paper_full epoch 3/10: loss=0.99556, val micro=0.0000, interactive=0.0000, TISL=0.0000, elapsed=152s
+official_paper_full epoch 4/10: loss=1.00697, val micro=0.0000, interactive=0.0000, TISL=0.0000, elapsed=199s
+official_paper_full epoch 5/10: loss=0.99560, val micro=0.0000, interactive=0.0000, TISL=0.0000, elapsed=245s
+official_paper_full epoch 6/10: loss=0.99649, val micro=0.0000, interactive=0.0000, TISL=0.0000, elapsed=292s
+official_paper_full epoch 7/10: loss=0.99478, val micro=0.0000, interactive=0.0000, TISL=0.0000, elapsed=339s
+official_paper_full epoch 8/10: loss=0.99777, val micro=0.0000, interactive=0.0000, TISL=0.0000, elapsed=386s
+official_paper_full epoch 9/10: loss=0.99754, val micro=0.0000, interactive=0.0000, TISL=0.0000, elapsed=433s
+official_paper_full epoch 10/10: loss=1.00165, val micro=0.0000, interactive=0.0000, TISL=0.0000, elapsed=488s
+Saved <PROJECT>/runs/training_scale/official_paper_full

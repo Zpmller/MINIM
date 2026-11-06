@@ -1,0 +1,53 @@
+{
+  "date": "2026-11-04",
+  "reference": {
+    "tcnp": 0.9491,
+    "tcnp_i": 0.9931,
+    "tisl": 0.101
+  },
+  "reference_source": "MINIM paper Table 1; 662 test variants",
+  "data_root": "data",
+  "split_reference": "runs/minim/split.json",
+  "model": "GATv2 hidden256 heads4 layers3",
+  "train": {
+    "epochs": 10,
+    "batch_size": 32,
+    "seed": 0,
+    "lr": 0.0003,
+    "weight_decay": 1e-05,
+    "loss_type": "ci_ce",
+    "task_encoding": "unique",
+    "prior_correction": false
+  },
+  "checkpoint_selection": "last epoch, no test-based model choice",
+  "calibration": "validation only; maximize capped minimum utility attainment minus excess leakage, ties minimize TISL then prefer official thresholds",
+  "tau_nec_grid": [
+    0.25,
+    0.5,
+    0.75,
+    1,
+    1.5,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "tau_sens_grid": [
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "test": "484 released variants, once after selection; also report fixed official thresholds 1/5",
+  "deviations": [
+    "CI-CE instead of CI-L1",
+    "unique task IDs instead of legacy hashes",
+    "released 5750 variants and grouped split instead of unavailable paper split",
+    "validation-selected thresholds in calibrated view"
+  ],
+  "feature_cache": "verified original cache; unique encoding applied after load",
+  "manifest_sha256": "2d88debd7326abd9560f88360f231e12311a2a59af689929eb9bf8d6fd750e85"
+}

@@ -1,0 +1,27 @@
+Step 1/4: loading model and test split
+Step 2/4: computing base predictions
+Step 3/4: sweeping tau_nec
+Step 3/4: 1/21 tau=0.0 tcnp=1.0000 tisl=1.0373
+Step 3/4: 2/21 tau=0.5 tcnp=0.9861 tisl=0.1055
+Step 3/4: 3/21 tau=1.0 tcnp=0.9802 tisl=0.0750
+Step 3/4: 4/21 tau=1.5 tcnp=0.9741 tisl=0.0613
+Step 3/4: 5/21 tau=2.0 tcnp=0.9689 tisl=0.0494
+Step 3/4: 6/21 tau=2.5 tcnp=0.9650 tisl=0.0446
+Step 3/4: 7/21 tau=3.0 tcnp=0.9581 tisl=0.0379
+Step 3/4: 8/21 tau=3.5 tcnp=0.9526 tisl=0.0320
+Step 3/4: 9/21 tau=4.0 tcnp=0.9432 tisl=0.0252
+Step 3/4: 10/21 tau=4.5 tcnp=0.9079 tisl=0.0189
+Step 3/4: 11/21 tau=5.0 tcnp=0.8850 tisl=0.0133
+Step 3/4: 12/21 tau=5.5 tcnp=0.8577 tisl=0.0066
+Step 3/4: 13/21 tau=6.0 tcnp=0.8210 tisl=0.0046
+Step 3/4: 14/21 tau=6.5 tcnp=0.7844 tisl=0.0028
+Step 3/4: 15/21 tau=7.0 tcnp=0.5973 tisl=0.0019
+Step 3/4: 16/21 tau=7.5 tcnp=0.4627 tisl=0.0014
+Step 3/4: 17/21 tau=8.0 tcnp=0.4444 tisl=0.0000
+Step 3/4: 18/21 tau=8.5 tcnp=0.4136 tisl=0.0000
+Step 3/4: 19/21 tau=9.0 tcnp=0.3964 tisl=0.0000
+Step 3/4: 20/21 tau=9.5 tcnp=0.3343 tisl=0.0000
+Step 3/4: 21/21 tau=10.0 tcnp=0.0331 tisl=0.0000
+Step 4/4: done
+Saved <PROJECT>/results/reference_profile_20261104/selected/pareto_test_sweep.csv
+Saved <PROJECT>/results/reference_profile_20261104/selected/figure2_threshold_sweep.png

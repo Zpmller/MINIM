@@ -1,0 +1,72 @@
+Step 1/5: loading manifest
+Step 1/5: sample overlap train-test = 0
+Step 2/5: featurizing variants
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 2895.18it/s]
+Step 2/5: cached 100/5266 train/validation graphs
+Step 2/5: cached 200/5266 train/validation graphs
+Step 2/5: cached 300/5266 train/validation graphs
+Step 2/5: cached 400/5266 train/validation graphs
+Step 2/5: cached 500/5266 train/validation graphs
+Step 2/5: cached 600/5266 train/validation graphs
+Step 2/5: cached 700/5266 train/validation graphs
+Step 2/5: cached 800/5266 train/validation graphs
+Step 2/5: cached 900/5266 train/validation graphs
+Step 2/5: cached 1000/5266 train/validation graphs
+Step 2/5: cached 1100/5266 train/validation graphs
+Step 2/5: cached 1200/5266 train/validation graphs
+Step 2/5: cached 1300/5266 train/validation graphs
+Step 2/5: cached 1400/5266 train/validation graphs
+Step 2/5: cached 1500/5266 train/validation graphs
+Step 2/5: cached 1600/5266 train/validation graphs
+Step 2/5: cached 1700/5266 train/validation graphs
+Step 2/5: cached 1800/5266 train/validation graphs
+Step 2/5: cached 1900/5266 train/validation graphs
+Step 2/5: cached 2000/5266 train/validation graphs
+Step 2/5: cached 2100/5266 train/validation graphs
+Step 2/5: cached 2200/5266 train/validation graphs
+Step 2/5: cached 2300/5266 train/validation graphs
+Step 2/5: cached 2400/5266 train/validation graphs
+Step 2/5: cached 2500/5266 train/validation graphs
+Step 2/5: cached 2600/5266 train/validation graphs
+Step 2/5: cached 2700/5266 train/validation graphs
+Step 2/5: cached 2800/5266 train/validation graphs
+Step 2/5: cached 2900/5266 train/validation graphs
+Step 2/5: cached 3000/5266 train/validation graphs
+Step 2/5: cached 3100/5266 train/validation graphs
+Step 2/5: cached 3200/5266 train/validation graphs
+Step 2/5: cached 3300/5266 train/validation graphs
+Step 2/5: cached 3400/5266 train/validation graphs
+Step 2/5: cached 3500/5266 train/validation graphs
+Step 2/5: cached 3600/5266 train/validation graphs
+Step 2/5: cached 3700/5266 train/validation graphs
+Step 2/5: cached 3800/5266 train/validation graphs
+Step 2/5: cached 3900/5266 train/validation graphs
+Step 2/5: cached 4000/5266 train/validation graphs
+Step 2/5: cached 4100/5266 train/validation graphs
+Step 2/5: cached 4200/5266 train/validation graphs
+Step 2/5: cached 4300/5266 train/validation graphs
+Step 2/5: cached 4400/5266 train/validation graphs
+Step 2/5: cached 4500/5266 train/validation graphs
+Step 2/5: cached 4600/5266 train/validation graphs
+Step 2/5: cached 4700/5266 train/validation graphs
+Step 2/5: cached 4800/5266 train/validation graphs
+Step 2/5: cached 4900/5266 train/validation graphs
+Step 2/5: cached 5000/5266 train/validation graphs
+Step 2/5: cached 5100/5266 train/validation graphs
+Step 2/5: cached 5200/5266 train/validation graphs
+Step 2/5: cached 5266/5266 train/validation graphs
+Step 3/5: training
+Step 3/5: epoch 1/10 | train_loss=1.4615 | val_loss=3.8468 | val_tcnp=0.1272 | val_tisl=0.0000
+Step 3/5: epoch 2/10 | train_loss=1.0252 | val_loss=3.8468 | val_tcnp=0.1272 | val_tisl=0.0000
+Step 3/5: epoch 3/10 | train_loss=1.0273 | val_loss=3.8468 | val_tcnp=0.1272 | val_tisl=0.0000
+Step 3/5: epoch 4/10 | train_loss=1.0380 | val_loss=3.8468 | val_tcnp=0.1272 | val_tisl=0.0000
+Step 3/5: epoch 5/10 | train_loss=1.0277 | val_loss=3.8468 | val_tcnp=0.1272 | val_tisl=0.0000
+Step 3/5: epoch 6/10 | train_loss=1.0248 | val_loss=3.8468 | val_tcnp=0.1272 | val_tisl=0.0000
+Step 3/5: epoch 7/10 | train_loss=1.0256 | val_loss=3.8468 | val_tcnp=0.1272 | val_tisl=0.0000
+Step 3/5: epoch 8/10 | train_loss=1.0257 | val_loss=3.8468 | val_tcnp=0.1272 | val_tisl=0.0000
+Step 3/5: epoch 9/10 | train_loss=1.0229 | val_loss=3.8468 | val_tcnp=0.1272 | val_tisl=0.0000
+Step 3/5: epoch 10/10 | train_loss=1.0259 | val_loss=3.8468 | val_tcnp=0.1272 | val_tisl=0.0000
+Step 4/5: saving checkpoint and split
+Step 5/5: done
+Saved checkpoint: runs/minim/model.pt
+Saved split: runs/minim/split.json

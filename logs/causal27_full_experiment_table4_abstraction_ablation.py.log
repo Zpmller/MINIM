@@ -1,0 +1,18 @@
+Step 1/3: running inference and policy variants
+Step 1/3: progress 50/452
+Step 1/3: progress 100/452
+Step 1/3: progress 150/452
+Step 1/3: progress 200/452
+Step 1/3: progress 250/452
+Step 1/3: progress 300/452
+Step 1/3: progress 350/452
+Step 1/3: progress 400/452
+Step 1/3: progress 450/452
+Step 1/3: progress 452/452
+Step 2/3: aggregating metrics
+Step 3/3: writing table
+Policy Variant,Strategy,TCNP,TCNP-I,TISL
+MINIM (Ours),Adaptive,0.9938,0.9938,0.0379
+Conservative (A->R),Abs->Rm,0.9104,0.9253,0.0337
+Radical (A->K),Abs->Kp,0.9938,0.9938,0.0398
+Saved <PROJECT>/results/causal27_20261102/full_ci_ce/table4.csv

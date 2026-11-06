@@ -1,0 +1,44 @@
+{
+  "all_checks_passed": true,
+  "test_variants": 34,
+  "test_action_counts": {
+    "R": 14073,
+    "K": 4387,
+    "A": 230
+  },
+  "original_checkpoint_unchanged": true,
+  "fixed_task_pairs": [
+    {
+      "goals": [
+        "extract_2fa_code",
+        "T_read_body"
+      ],
+      "fixed_inputs_distinct": true
+    },
+    {
+      "goals": [
+        "reply_slack",
+        "T_identify_sender"
+      ],
+      "fixed_inputs_distinct": true
+    },
+    {
+      "goals": [
+        "vote_content",
+        "T_read_post"
+      ],
+      "fixed_inputs_distinct": true
+    },
+    {
+      "goals": [
+        "add_to_wishlist",
+        "T_read_price"
+      ],
+      "fixed_inputs_distinct": true
+    }
+  ],
+  "short_sensitive_irrelevant_abstract_nodes": 44,
+  "official_tisl": 0.1173116609578112,
+  "auxiliary_capped_tisl": 0.0893985490287854,
+  "auxiliary_metric_note": "Cap placeholder token proxy at original token count; official tables are unchanged."
+}

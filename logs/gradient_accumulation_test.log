@@ -1,0 +1,8 @@
+test_unequal_graph_sizes_match_full_batch_gradient (test_gradient_accumulation.GradientAccumulationTests) ... <PROJECT>/.venv/lib/python3.10/site-packages/torch/jit/_script.py:1480: DeprecationWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+ok
+
+----------------------------------------------------------------------
+Ran 1 test in 2.706s
+
+OK

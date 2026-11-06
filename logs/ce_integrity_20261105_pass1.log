@@ -1,0 +1,127 @@
+Cross-partition identical visible graph groups: 0
+Lookup training unique tree/task graphs: 300
+Lookup training unique tree/task graphs: 600
+Lookup training unique tree/task graphs: 900
+Fresh CE and independent baseline scoring: 100
+Fresh CE and independent baseline scoring: 200
+Fresh CE and independent baseline scoring: 300
+Fresh CE and independent baseline scoring: 400
+Fresh CE and independent baseline scoring: 452
+{
+  "date": "2026-11-05",
+  "split_variant_counts": {
+    "train": 4356,
+    "val": 592,
+    "test": 452
+  },
+  "base_tree_overlaps": {
+    "train_val": 0,
+    "train_test": 0,
+    "val_test": 0
+  },
+  "canonical_duplicate_page_groups_cross_partition": [],
+  "unique_canonical_pages": 150,
+  "training_lookup_unique_tree_goal_graphs": 1089,
+  "lookup_key_count": 125133,
+  "test_text_lookup_hit_fraction": 0.8495495160550743,
+  "critical_node_text_lookup_hit_fraction": 0.4284712482468443,
+  "test_cache_label_checks": 452,
+  "label_blind_forward_checks": 3,
+  "metrics": {
+    "role_goal_mean": {
+      "tcnp": 1.0,
+      "tcnp_i": 1.0,
+      "nonempty_macro_tcnp": 1.0,
+      "nonempty_macro_tcnp_i": 1.0,
+      "micro_tcnp": 1.0,
+      "micro_tcnp_i": 1.0,
+      "tisl": 0.12384259259259259,
+      "sens_mae": 0.20245504356244462,
+      "nec_mae": 0.4701553957268129,
+      "nodes": 645528,
+      "critical": 17112,
+      "critical_kept": 17112,
+      "critical_interactive": 16796,
+      "critical_interactive_kept": 16796,
+      "keep": 84784,
+      "abstract": 1332,
+      "remove": 559412,
+      "sensitivity_recall": 0.3000658761528327,
+      "empty_critical_variants": 16,
+      "variants": 452
+    },
+    "text_role_goal_lookup": {
+      "tcnp": 1.0,
+      "tcnp_i": 1.0,
+      "nonempty_macro_tcnp": 1.0,
+      "nonempty_macro_tcnp_i": 1.0,
+      "micro_tcnp": 1.0,
+      "micro_tcnp_i": 1.0,
+      "tisl": 0.1093470625798212,
+      "sens_mae": 0.08988372282729011,
+      "nec_mae": 0.3847080610203702,
+      "nodes": 645528,
+      "critical": 17112,
+      "critical_kept": 17112,
+      "critical_interactive": 16796,
+      "critical_interactive_kept": 16796,
+      "keep": 78880,
+      "abstract": 2024,
+      "remove": 564624,
+      "sensitivity_recall": 0.5227272727272727,
+      "empty_critical_variants": 16,
+      "variants": 452
+    },
+    "fresh_ce_predictions": {
+      "tcnp": 0.9937668348034576,
+      "tcnp_i": 0.9937542465281771,
+      "nonempty_macro_tcnp": 0.993538094796245,
+      "nonempty_macro_tcnp_i": 0.9935250445659085,
+      "micro_tcnp": 0.9955586722767649,
+      "micro_tcnp_i": 0.995475113122172,
+      "tisl": 0.03791507024265645,
+      "sens_mae": 0.11027593334754442,
+      "nec_mae": 0.04768398709699675,
+      "nodes": 645528,
+      "critical": 17112,
+      "critical_kept": 17036,
+      "critical_interactive": 16796,
+      "critical_interactive_kept": 16720,
+      "keep": 80568,
+      "abstract": 2212,
+      "remove": 562748,
+      "sensitivity_recall": 0.48353096179183136,
+      "empty_critical_variants": 16,
+      "variants": 452
+    }
+  },
+  "fresh_minus_existing_metrics": {
+    "tcnp": -3.3306690738754696e-16,
+    "tcnp_i": -6.661338147750939e-16,
+    "tisl": 6.327760052049491e-10,
+    "micro_tcnp": 0.0,
+    "micro_tcnp_i": 0.0
+  },
+  "label_blind_evidence": [
+    {
+      "domain": "shopping",
+      "cpu_scores_exactly_unchanged": true,
+      "gpu_altered_label_max_abs_error": 2.384185791015625e-06,
+      "gpu_identical_repeat_max_abs_error": 1.6689300537109375e-06
+    },
+    {
+      "domain": "reddit",
+      "cpu_scores_exactly_unchanged": true,
+      "gpu_altered_label_max_abs_error": 3.337860107421875e-06,
+      "gpu_identical_repeat_max_abs_error": 2.175569534301758e-06
+    },
+    {
+      "domain": "gmail",
+      "cpu_scores_exactly_unchanged": true,
+      "gpu_altered_label_max_abs_error": 1.9073486328125e-06,
+      "gpu_identical_repeat_max_abs_error": 3.814697265625e-06
+    }
+  ],
+  "model_sha256": "29a3d04edd1e0863ecbe71a9b3be5fe92ecf47d3b362bcb390e1d835fc6e9e33",
+  "lookup_protocol": "train-only empirical score means; unique tree/task representatives; exact text-role-goal lookup with role-goal fallback; no test tuning"
+}

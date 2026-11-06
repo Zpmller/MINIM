@@ -1,0 +1,4 @@
+task_semantics,keep_percent,abstract_percent,tcnp,tcnp_i
+Informational,15.4991,0.6648,0.985729,0.987662
+Sensitive/Admin,25.7893,5.3258,1.000000,1.000000
+Transactional,17.2312,2.0171,0.995822,0.995822

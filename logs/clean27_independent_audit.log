@@ -1,0 +1,158 @@
+raw/cache label verification 1000/5400
+raw/cache label verification 2000/5400
+raw/cache label verification 3000/5400
+raw/cache label verification 4000/5400
+raw/cache label verification 5000/5400
+raw/cache label verification 5400/5400
+frozen official inference 100/452
+frozen official inference 200/452
+frozen official inference 300/452
+frozen official inference 400/452
+frozen official inference 452/452
+{
+  "manifest_sha256": "cd1946e2761683b8fff5961fb97d47605b0e45e0a381784620e2b9d393be4d10",
+  "checkpoint_sha256": "ae98bae6ff436387e0736ed12286238cd669c78225b51e5f3c7dc180658e8e86",
+  "frozen_source_sha256": "96eeb211078b721fb6848e88b0bb87f44f9067c83d5143c415c6326602a5dcd6",
+  "task_count": 27,
+  "variant_count": 5400,
+  "nodes_checked": 5048216,
+  "raw_cache_label_checks": 5400,
+  "all_tree_paths_share_original_files": true,
+  "cache_strategy": "Separate namespace; verified immutable hardlinks for unchanged test feature arrays.",
+  "splits": {
+    "train": {
+      "variants": 4356,
+      "base_trees": 120
+    },
+    "val": {
+      "variants": 592,
+      "base_trees": 15
+    },
+    "test": {
+      "variants": 452,
+      "base_trees": 15
+    }
+  },
+  "same_base_tree_split_as_34_tasks": true,
+  "label_histograms": {
+    "sens": {
+      "0.0": 4890728,
+      "4.0": 3000,
+      "6.0": 58084,
+      "7.0": 48,
+      "8.0": 9568,
+      "9.0": 18992,
+      "10.0": 67796
+    },
+    "nec": {
+      "0.0": 4359616,
+      "2.0": 3472,
+      "4.0": 527980,
+      "6.0": 15444,
+      "7.0": 67176,
+      "10.0": 74528
+    }
+  },
+  "zero_label_fractions": {
+    "sens": 0.9688032366285436,
+    "nec": 0.8635953770599356
+  },
+  "test_counts": {
+    "K": 0,
+    "A": 0,
+    "R": 645528,
+    "critical": 17112,
+    "critical_kept": 0,
+    "interactive": 16796,
+    "interactive_kept": 0,
+    "no_critical": 16,
+    "no_interactive": 16,
+    "tcnp_sum": 16.0,
+    "tcnp_i_sum": 16.0,
+    "leak_num": 0.0,
+    "leak_den": 1002240.0
+  },
+  "test_metrics": {
+    "tcnp": 0.035398230088495575,
+    "tcnp_i": 0.035398230088495575,
+    "micro_tcnp": 0.0,
+    "micro_tcnp_i": 0.0,
+    "tisl": 0.0
+  },
+  "predictions": {
+    "sens": {
+      "min": 4.1017437979462557e-07,
+      "mean": 1.6834430425660685e-05,
+      "max": 0.000541363435331732
+    },
+    "nec": {
+      "min": 2.0672075606853468e-07,
+      "mean": 1.0869372999877669e-05,
+      "max": 0.00041834224248304963
+    }
+  },
+  "training_history": [
+    {
+      "epoch": 1,
+      "train_loss": 2.1818,
+      "val_loss": 3.8588,
+      "zero_train_loss": 0.9891187515113793
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.9816,
+      "val_loss": 3.8588,
+      "zero_train_loss": 0.9814376239589558
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.978,
+      "val_loss": 3.8587,
+      "zero_train_loss": 0.9778897493458284
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.9752,
+      "val_loss": 3.8587,
+      "zero_train_loss": 0.9750593936061935
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.987,
+      "val_loss": 3.8587,
+      "zero_train_loss": 0.9868865121347935
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.9867,
+      "val_loss": 3.8586,
+      "zero_train_loss": 0.9866876337566446
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.981,
+      "val_loss": 3.8586,
+      "zero_train_loss": 0.9809145568683126
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.9826,
+      "val_loss": 3.8586,
+      "zero_train_loss": 0.9825731327494416
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.9811,
+      "val_loss": 3.8586,
+      "zero_train_loss": 0.9810907370677384
+    },
+    {
+      "epoch": 10,
+      "train_loss": 0.9854,
+      "val_loss": 3.8586,
+      "zero_train_loss": 0.9854055668873686
+    }
+  ],
+  "zero_predictor_validation_loss": 3.858558132036312,
+  "independent_metrics_match_existing_official_table": true
+}

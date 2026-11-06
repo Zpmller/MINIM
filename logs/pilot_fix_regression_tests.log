@@ -1,0 +1,11 @@
+test_colliding_tasks_become_distinct_without_changing_text_or_scalars (test_training_repairs.TrainingRepairTests) ... ok
+test_cross_entropy_has_recovery_gradient_at_collapsed_logits (test_training_repairs.TrainingRepairTests) ... ok
+test_prior_correction_recovers_posterior_and_does_not_boost_absent_classes (test_training_repairs.TrainingRepairTests) ... <PROJECT>/.venv/lib/python3.10/site-packages/torch/jit/_script.py:1480: DeprecationWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+ok
+test_unknown_task_is_rejected_instead_of_aliased (test_training_repairs.TrainingRepairTests) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 3.802s
+
+OK

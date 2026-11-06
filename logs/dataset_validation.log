@@ -1,0 +1,35 @@
+{
+  "manifest_rows": 5750,
+  "unique_tree_paths": 5750,
+  "domain_counts": {
+    "gmail": 2950,
+    "reddit": 1300,
+    "shopping": 1500
+  },
+  "nodes_validated": 5440118,
+  "node_count_mean": 946.1074782608696,
+  "score_label_histograms": {
+    "sensitivity_score": {
+      "0.0": 5272844,
+      "4.0": 3195,
+      "6.0": 61872,
+      "7.0": 52,
+      "8.0": 10285,
+      "9.0": 20018,
+      "10.0": 71852
+    },
+    "necessity_score": {
+      "0.0": 4675702,
+      "2.0": 3730,
+      "4.0": 583223,
+      "6.0": 16380,
+      "7.0": 67870,
+      "8.0": 12308,
+      "10.0": 80905
+    }
+  },
+  "missing_files": [],
+  "missing_count": 0,
+  "bad_json_count": 0,
+  "bad_label_count": 0
+}

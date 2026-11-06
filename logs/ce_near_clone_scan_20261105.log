@@ -1,0 +1,181 @@
+{
+  "near_clone_counts": {
+    "test": 4,
+    "val": 1
+  },
+  "near_clone_samples": [
+    [
+      "shopping",
+      "task_125_ax_tree_desktop_pii"
+    ],
+    [
+      "shopping",
+      "task_143_ax_tree_desktop_pii"
+    ],
+    [
+      "shopping",
+      "task_192_ax_tree_desktop_pii"
+    ],
+    [
+      "shopping",
+      "task_230_ax_tree_desktop_pii"
+    ],
+    [
+      "shopping",
+      "task_232_ax_tree_desktop_pii"
+    ]
+  ],
+  "metrics": {
+    "source_scores": "results/reference_profile_20261104/test_scores.npz",
+    "source_scores_sha256": "9c567783fb70862d80cc851d9ae61ca16a00ccdc7ea9fceffd7e494ab21b2c07",
+    "raw_label_check": {
+      "variants_checked": 484,
+      "mismatch_indices": []
+    },
+    "note": "Post hoc sensitivity analysis of already stored predictions. No retraining or policy selection. Does not create an untouched held-out test set.",
+    "metrics": {
+      "fixed_1_5": {
+        "all_test": {
+          "variants": 484,
+          "nodes": 696266,
+          "critical": 19510,
+          "critical_kept": 19074,
+          "critical_interactive": 17695,
+          "critical_interactive_kept": 17577,
+          "vacuous": 16,
+          "vacuous_interactive": 19,
+          "sensitive": 12992,
+          "detected": 6296,
+          "hard": 1085,
+          "hard_abstract": 347,
+          "tcnp": 0.9801667065046746,
+          "tcnp_i": 0.9851722742904685,
+          "micro_tcnp": 0.9776524859046642,
+          "micro_tcnp_i": 0.9933314495620231,
+          "tisl": 0.07512788214872733,
+          "raw_tisl_numerator": 78252.0,
+          "raw_tisl_denominator": 1041584.0,
+          "sensitivity_recall": 0.48460591133004927,
+          "hard_conflict_abstract_recall": 0.31981566820276497
+        },
+        "excluding_train_near_clones": {
+          "variants": 364,
+          "nodes": 524546,
+          "critical": 14918,
+          "critical_kept": 14514,
+          "critical_interactive": 13559,
+          "critical_interactive_kept": 13449,
+          "vacuous": 16,
+          "vacuous_interactive": 19,
+          "sensitive": 11912,
+          "detected": 5304,
+          "hard": 893,
+          "hard_abstract": 155,
+          "tcnp": 0.9754597599311241,
+          "tcnp_i": 0.9817492145327473,
+          "micro_tcnp": 0.9729186217991688,
+          "micro_tcnp_i": 0.9918873073235489,
+          "tisl": 0.07766917054423605,
+          "raw_tisl_numerator": 78252.0,
+          "raw_tisl_denominator": 1007504.0,
+          "sensitivity_recall": 0.445265278710544,
+          "hard_conflict_abstract_recall": 0.17357222844344905
+        },
+        "train_near_clones_only": {
+          "variants": 120,
+          "nodes": 171720,
+          "critical": 4592,
+          "critical_kept": 4560,
+          "critical_interactive": 4136,
+          "critical_interactive_kept": 4128,
+          "vacuous": 0,
+          "vacuous_interactive": 0,
+          "sensitive": 1080,
+          "detected": 992,
+          "hard": 192,
+          "hard_abstract": 192,
+          "tcnp": 0.9944444444444446,
+          "tcnp_i": 0.9955555555555555,
+          "micro_tcnp": 0.9930313588850174,
+          "micro_tcnp_i": 0.9980657640232108,
+          "tisl": 0.0,
+          "raw_tisl_numerator": 0.0,
+          "raw_tisl_denominator": 34080.0,
+          "sensitivity_recall": 0.9185185185185185,
+          "hard_conflict_abstract_recall": 1.0
+        }
+      },
+      "validation_selected_0.25_7": {
+        "all_test": {
+          "variants": 484,
+          "nodes": 696266,
+          "critical": 19510,
+          "critical_kept": 19349,
+          "critical_interactive": 17695,
+          "critical_interactive_kept": 17629,
+          "vacuous": 16,
+          "vacuous_interactive": 19,
+          "sensitive": 12992,
+          "detected": 4236,
+          "hard": 1085,
+          "hard_abstract": 300,
+          "tcnp": 0.9899397728395256,
+          "tcnp_i": 0.9911058160514445,
+          "micro_tcnp": 0.9917478216299334,
+          "micro_tcnp_i": 0.9962701328058774,
+          "tisl": 0.13673789151907095,
+          "raw_tisl_numerator": 142424.0,
+          "raw_tisl_denominator": 1041584.0,
+          "sensitivity_recall": 0.32604679802955666,
+          "hard_conflict_abstract_recall": 0.2764976958525346
+        },
+        "excluding_train_near_clones": {
+          "variants": 364,
+          "nodes": 524546,
+          "critical": 14918,
+          "critical_kept": 14773,
+          "critical_interactive": 13559,
+          "critical_interactive_kept": 13501,
+          "vacuous": 16,
+          "vacuous_interactive": 19,
+          "sensitive": 11912,
+          "detected": 3676,
+          "hard": 893,
+          "hard_abstract": 108,
+          "tcnp": 0.9875389653507244,
+          "tcnp_i": 0.9896388689621771,
+          "micro_tcnp": 0.9902801984180185,
+          "micro_tcnp_i": 0.9957223984069622,
+          "tisl": 0.14095030888214835,
+          "raw_tisl_numerator": 142008.0,
+          "raw_tisl_denominator": 1007504.0,
+          "sensitivity_recall": 0.30859637340496976,
+          "hard_conflict_abstract_recall": 0.12094064949608063
+        },
+        "train_near_clones_only": {
+          "variants": 120,
+          "nodes": 171720,
+          "critical": 4592,
+          "critical_kept": 4576,
+          "critical_interactive": 4136,
+          "critical_interactive_kept": 4128,
+          "vacuous": 0,
+          "vacuous_interactive": 0,
+          "sensitive": 1080,
+          "detected": 560,
+          "hard": 192,
+          "hard_abstract": 192,
+          "tcnp": 0.9972222222222221,
+          "tcnp_i": 0.9955555555555555,
+          "micro_tcnp": 0.9965156794425087,
+          "micro_tcnp_i": 0.9980657640232108,
+          "tisl": 0.012206572769953052,
+          "raw_tisl_numerator": 416.0,
+          "raw_tisl_denominator": 34080.0,
+          "sensitivity_recall": 0.5185185185185185,
+          "hard_conflict_abstract_recall": 1.0
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,134 @@
+labels train: {'variants': 4637, 'samples': 120, 'domain_variants': {'gmail': 2419, 'reddit': 988, 'shopping': 1230}, 'nodes': 4256881, 'sens_histogram': {0.0: 4125107, 4.0: 2380, 6.0: 47229, 7.0: 52, 8.0: 8203, 9.0: 16367, 10.0: 57543}, 'nec_histogram': {0.0: 3656091, 2.0: 3255, 4.0: 458530, 6.0: 13657, 7.0: 53322, 8.0: 9657, 10.0: 62369}, 'sens_zero_fraction': 0.9690444717623067, 'nec_zero_fraction': 0.8588661510622448, 'critical_fraction': 0.029445972297557767, 'sens_constant_L1_median': 0.0, 'nec_constant_CI_L1_weighted_median': 0.0, 'zero_predictor_loss_node_mean': 0.9729809165000916, 'zero_predictor_loss_graph_mean': 3.129260998207201, 'graphs_without_critical_nodes': 540}
+labels val: {'variants': 629, 'samples': 15, 'domain_variants': {'reddit': 156, 'gmail': 413, 'shopping': 60}, 'nodes': 486971, 'sens_histogram': {0.0: 464990, 4.0: 288, 6.0: 8039, 8.0: 1069, 9.0: 2943, 10.0: 9642}, 'nec_histogram': {0.0: 414099, 2.0: 214, 4.0: 55138, 6.0: 1295, 7.0: 6492, 8.0: 1130, 10.0: 8603}, 'sens_zero_fraction': 0.9548617884843246, 'nec_zero_fraction': 0.8503565920763249, 'critical_fraction': 0.033318205806916634, 'sens_constant_L1_median': 0.0, 'nec_constant_CI_L1_weighted_median': 0.0, 'zero_predictor_loss_node_mean': 1.1502509117126465, 'zero_predictor_loss_graph_mean': 3.8468145461832965, 'graphs_without_critical_nodes': 80}
+labels test: {'variants': 484, 'samples': 15, 'domain_variants': {'shopping': 210, 'reddit': 156, 'gmail': 118}, 'nodes': 696266, 'sens_histogram': {0.0: 682747, 4.0: 527, 6.0: 6604, 8.0: 1013, 9.0: 708, 10.0: 4667}, 'nec_histogram': {0.0: 605512, 2.0: 261, 4.0: 69555, 6.0: 1428, 7.0: 8056, 8.0: 1521, 10.0: 9933}, 'sens_zero_fraction': 0.9805835700723574, 'nec_zero_fraction': 0.8696561371659681, 'critical_fraction': 0.02802090005831105, 'sens_constant_L1_median': 0.0, 'nec_constant_CI_L1_weighted_median': 0.0, 'zero_predictor_loss_node_mean': 0.8089127540588379, 'zero_predictor_loss_graph_mean': 1.7648531139389543, 'graphs_without_critical_nodes': 16}
+inference 100/484
+inference 200/484
+inference 300/484
+inference 400/484
+inference 484/484
+{
+  "test_action_counts": {
+    "R": 696266
+  },
+  "test_metrics": {
+    "checkpoint": {
+      "macro_tcnp": 0.03305785123966942,
+      "macro_tcnp_i": 0.03925619834710744,
+      "tisl": 0.0,
+      "micro_critical_recall": 0.0,
+      "micro_critical_interactive_recall": 0.0
+    },
+    "all_remove": {
+      "macro_tcnp": 0.03305785123966942,
+      "macro_tcnp_i": 0.03925619834710744,
+      "tisl": 0.0,
+      "micro_critical_recall": 0.0,
+      "micro_critical_interactive_recall": 0.0
+    },
+    "oracle": {
+      "macro_tcnp": 1.0,
+      "macro_tcnp_i": 1.0,
+      "tisl": 0.0,
+      "micro_critical_recall": 1.0,
+      "micro_critical_interactive_recall": 1.0
+    },
+    "random_budget": {
+      "macro_tcnp": 0.2283831930641946,
+      "macro_tcnp_i": 0.23462894304910514,
+      "tisl": 0.19712380374506522,
+      "micro_critical_recall": 0.2017939518195797,
+      "micro_critical_interactive_recall": 0.2008476970895733
+    }
+  },
+  "test_predictions": {
+    "sens": {
+      "min": 4.945085573665464e-12,
+      "max": 4.226088094583247e-06,
+      "mean": 1.625992140930066e-08,
+      "quantiles": {
+        "p01": 1.1185555953696635e-11,
+        "p50": 1.5386363294567218e-09,
+        "p99": 2.3920689926626376e-07
+      }
+    },
+    "nec": {
+      "min": 4.3384238423982424e-09,
+      "max": 0.00011736317537724972,
+      "mean": 1.214419285133772e-06,
+      "quantiles": {
+        "p01": 8.047573274438946e-09,
+        "p50": 3.067000307055423e-07,
+        "p99": 1.3092097651678928e-05
+      }
+    }
+  },
+  "gradient_checks": [
+    {
+      "domain": "gmail",
+      "head": "sens",
+      "path": "samples/gmail/task_23_ax_tree_gmail/variants/variant_balanced_read_email/tree_with_scores.json",
+      "nodes": 68,
+      "positive_nodes": 32,
+      "bin0_probability_mean": 0.9999997615814209,
+      "positive_logit_gradient_l1_abs_mean": 7.047288863581969e-10,
+      "positive_logit_gradient_ce_abs_mean": 0.00267379661090672,
+      "l1_over_ce_positive_gradient_ratio": 2.6356860871601384e-07
+    },
+    {
+      "domain": "gmail",
+      "head": "nec",
+      "path": "samples/gmail/task_23_ax_tree_gmail/variants/variant_balanced_read_email/tree_with_scores.json",
+      "nodes": 68,
+      "positive_nodes": 24,
+      "bin0_probability_mean": 0.9999885559082031,
+      "positive_logit_gradient_l1_abs_mean": 4.476819626120232e-08,
+      "positive_logit_gradient_ce_abs_mean": 0.002981283003464341,
+      "l1_over_ce_positive_gradient_ratio": 1.5016419638413936e-05
+    },
+    {
+      "domain": "reddit",
+      "head": "sens",
+      "path": "samples/reddit/reddit_task_44_ax_tree_desktop_pii/variants/variant_reading_T_read_post/tree_with_scores.json",
+      "nodes": 545,
+      "positive_nodes": 18,
+      "bin0_probability_mean": 1.0,
+      "positive_logit_gradient_l1_abs_mean": 6.48366993774574e-12,
+      "positive_logit_gradient_ce_abs_mean": 0.0003336113295517862,
+      "l1_over_ce_positive_gradient_ratio": 1.9434802212003888e-08
+    },
+    {
+      "domain": "reddit",
+      "head": "nec",
+      "path": "samples/reddit/reddit_task_44_ax_tree_desktop_pii/variants/variant_reading_T_read_post/tree_with_scores.json",
+      "nodes": 545,
+      "positive_nodes": 123,
+      "bin0_probability_mean": 0.9999991059303284,
+      "positive_logit_gradient_l1_abs_mean": 4.446036871996739e-10,
+      "positive_logit_gradient_ce_abs_mean": 0.00034543691435828805,
+      "l1_over_ce_positive_gradient_ratio": 1.2870763157479814e-06
+    },
+    {
+      "domain": "shopping",
+      "head": "sens",
+      "path": "samples/shopping/task_23_ax_tree_desktop_pii/variants/variant_reading_T_read_price/tree_with_scores.json",
+      "nodes": 706,
+      "positive_nodes": 17,
+      "bin0_probability_mean": 1.0,
+      "positive_logit_gradient_l1_abs_mean": 1.1203105283741355e-11,
+      "positive_logit_gradient_ce_abs_mean": 0.0002575328398961574,
+      "l1_over_ce_positive_gradient_ratio": 4.350165738742362e-08
+    },
+    {
+      "domain": "shopping",
+      "head": "nec",
+      "path": "samples/shopping/task_23_ax_tree_desktop_pii/variants/variant_reading_T_read_price/tree_with_scores.json",
+      "nodes": 706,
+      "positive_nodes": 86,
+      "bin0_probability_mean": 0.999998927116394,
+      "positive_logit_gradient_l1_abs_mean": 5.308944395210347e-10,
+      "positive_logit_gradient_ce_abs_mean": 0.00026412089937366545,
+      "l1_over_ce_positive_gradient_ratio": 2.0100433175684884e-06
+    }
+  ]
+}
+Saved <PROJECT>/results/diagnosis/audit.json and per_graph.csv

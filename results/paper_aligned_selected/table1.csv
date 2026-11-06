@@ -1,0 +1,6 @@
+method,tcnp,tcnp_i,tisl
+Full Observation,1.000000,1.000000,1.000000
+Random Budget,0.243541,0.244674,0.205285
+Sensitivity-Only,0.054689,0.054984,0.024808
+Necessity-Only,0.370754,0.366844,0.775295
+MINIM,1.000000,1.000000,1.000000

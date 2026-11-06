@@ -1,0 +1,6 @@
+Step 1/4: loading model
+Step 2/4: resolving split rows
+Step 3/4: running inference on 34 variants
+Step 3/4: progress 34/34
+Step 4/4: done
+Predictions saved to runs/pilot_fix/selected_inference/predictions_test.jsonl

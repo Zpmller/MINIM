@@ -1,0 +1,18 @@
+trace step=1: n=4.95682, critical_recall=1.000, p0=0.102381, layer3_norm=1.59
+trace step=10: n=4.31357, critical_recall=1.000, p0=0.141085, layer3_norm=2.87
+trace step=20: n=2.15401, critical_recall=1.000, p0=0.356768, layer3_norm=6.55
+trace step=30: n=0.17052, critical_recall=0.000, p0=0.903872, layer3_norm=13.31
+trace step=40: n=0.00396, critical_recall=0.000, p0=0.997092, layer3_norm=19.19
+trace step=50: n=0.00050, critical_recall=0.000, p0=0.999593, layer3_norm=22.13
+trace step=60: n=0.00021, critical_recall=0.000, p0=0.999826, layer3_norm=23.36
+trace step=70: n=0.00014, critical_recall=0.000, p0=0.999877, layer3_norm=23.85
+trace step=80: n=0.00012, critical_recall=0.000, p0=0.999894, layer3_norm=24.05
+trace step=90: n=0.00012, critical_recall=0.000, p0=0.999900, layer3_norm=24.13
+trace step=100: n=0.00011, critical_recall=0.000, p0=0.999904, layer3_norm=24.17
+trace step=110: n=0.00011, critical_recall=0.000, p0=0.999906, layer3_norm=24.20
+trace step=120: n=0.00011, critical_recall=0.000, p0=0.999908, layer3_norm=24.21
+trace step=130: n=0.00011, critical_recall=0.000, p0=0.999909, layer3_norm=24.23
+recovery l1/carry: {'loss': 'l1', 'optimizer': 'carry', 'step': 400, 'nodes': 32, 'mean_score': 0.9999997615814209, 'critical_recall': 0.15625, 'mae': 7.40625}
+recovery l1/fresh: {'loss': 'l1', 'optimizer': 'fresh', 'step': 400, 'nodes': 32, 'mean_score': 8.993134498596191, 'critical_recall': 1.0, 'mae': 1.5321717262268066}
+recovery ce/carry: {'loss': 'ce', 'optimizer': 'carry', 'step': 400, 'nodes': 32, 'mean_score': 8.341806411743164, 'critical_recall': 1.0, 'mae': 1.475538969039917}
+recovery ce/fresh: {'loss': 'ce', 'optimizer': 'fresh', 'step': 400, 'nodes': 32, 'mean_score': 8.309161186218262, 'critical_recall': 1.0, 'mae': 1.4826974868774414}

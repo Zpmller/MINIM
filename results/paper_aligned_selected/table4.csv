@@ -1,0 +1,4 @@
+policy_variant,strategy,tcnp,tcnp_i,tisl
+MINIM (Ours),Adaptive,1.000000,1.000000,1.000000
+Conservative (A->R),Abs->Rm,1.000000,1.000000,1.000000
+Radical (A->K),Abs->Kp,1.000000,1.000000,1.000000

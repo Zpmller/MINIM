@@ -1,0 +1,43 @@
+train: 68 variants, 86122 nodes
+val: 34 variants, 25288 nodes
+legacy_ci_l1 1/40: loss=8.7614, val micro_TCNP=1.0000, TISL=1.0000, K/A/R=1.000/0.000/0.000
+legacy_ci_l1 5/40: loss=1.3043, val micro_TCNP=0.0000, TISL=0.0000, K/A/R=0.000/0.000/1.000
+legacy_ci_l1 10/40: loss=1.2654, val micro_TCNP=0.0000, TISL=0.0000, K/A/R=0.000/0.000/1.000
+legacy_ci_l1 15/40: loss=1.1263, val micro_TCNP=0.0000, TISL=0.0000, K/A/R=0.000/0.000/1.000
+legacy_ci_l1 20/40: loss=1.3443, val micro_TCNP=0.0000, TISL=0.0000, K/A/R=0.000/0.000/1.000
+legacy_ci_l1 25/40: loss=1.6242, val micro_TCNP=0.0000, TISL=0.0000, K/A/R=0.000/0.000/1.000
+legacy_ci_l1 30/40: loss=1.2083, val micro_TCNP=0.0000, TISL=0.0000, K/A/R=0.000/0.000/1.000
+legacy_ci_l1 35/40: loss=1.4671, val micro_TCNP=0.0000, TISL=0.0000, K/A/R=0.000/0.000/1.000
+legacy_ci_l1 40/40: loss=1.6344, val micro_TCNP=0.0000, TISL=0.0000, K/A/R=0.000/0.000/1.000
+BEST legacy_ci_l1: {'validation': {'tcnp': 1.0, 'tcnp_i': 1.0, 'micro_tcnp': 1.0, 'micro_tcnp_i': 1.0, 'tisl': 1.0, 'keep_rate': 1.0, 'abstract_rate': 0.0, 'remove_rate': 0.0, 'sensitivity_precision': 0.0, 'sensitivity_recall': 0.0, 'hard_conflict_abstract_recall': 0.0, 'sens_mae': 3.7555044512701956, 'nec_mae': 2.987365399233641, 'sens_mean': 3.741018533706665, 'sens_p99': 4.040465831756592, 'nec_mean': 3.261861562728882, 'nec_p99': 3.6460957527160645, 'critical_nodes': 987, 'critical_interactive_nodes': 792, 'nodes': 25288, 'selection_score': 0.5}, 'training': {'tcnp': 1.0, 'tcnp_i': 1.0, 'micro_tcnp': 1.0, 'micro_tcnp_i': 1.0, 'tisl': 1.0, 'keep_rate': 1.0, 'abstract_rate': 0.0, 'remove_rate': 0.0, 'sensitivity_precision': 0.0, 'sensitivity_recall': 0.0, 'hard_conflict_abstract_recall': 0.0, 'sens_mae': 3.796699010291292, 'nec_mae': 3.090063921310791, 'sens_mean': 3.7900471687316895, 'sens_p99': 4.040369033813477, 'nec_mean': 3.3270084857940674, 'nec_p99': 3.654789924621582, 'critical_nodes': 3059, 'critical_interactive_nodes': 2324, 'nodes': 86122, 'selection_score': 0.5}, 'selected_epoch': 1}
+unique_ci_l1 1/40: loss=8.7557, val micro_TCNP=1.0000, TISL=1.0000, K/A/R=1.000/0.000/0.000
+unique_ci_l1 5/40: loss=1.3043, val micro_TCNP=0.0000, TISL=0.0000, K/A/R=0.000/0.000/1.000
+unique_ci_l1 10/40: loss=1.2654, val micro_TCNP=0.0000, TISL=0.0000, K/A/R=0.000/0.000/1.000
+unique_ci_l1 15/40: loss=1.1263, val micro_TCNP=0.0000, TISL=0.0000, K/A/R=0.000/0.000/1.000
+unique_ci_l1 20/40: loss=1.3443, val micro_TCNP=0.0000, TISL=0.0000, K/A/R=0.000/0.000/1.000
+unique_ci_l1 25/40: loss=1.6242, val micro_TCNP=0.0000, TISL=0.0000, K/A/R=0.000/0.000/1.000
+unique_ci_l1 30/40: loss=1.2083, val micro_TCNP=0.0000, TISL=0.0000, K/A/R=0.000/0.000/1.000
+unique_ci_l1 35/40: loss=1.4671, val micro_TCNP=0.0000, TISL=0.0000, K/A/R=0.000/0.000/1.000
+unique_ci_l1 40/40: loss=1.6344, val micro_TCNP=0.0000, TISL=0.0000, K/A/R=0.000/0.000/1.000
+BEST unique_ci_l1: {'validation': {'tcnp': 1.0, 'tcnp_i': 1.0, 'micro_tcnp': 1.0, 'micro_tcnp_i': 1.0, 'tisl': 1.0, 'keep_rate': 1.0, 'abstract_rate': 0.0, 'remove_rate': 0.0, 'sensitivity_precision': 0.0, 'sensitivity_recall': 0.0, 'hard_conflict_abstract_recall': 0.0, 'sens_mae': 3.6731105540153988, 'nec_mae': 3.0164760153944528, 'sens_mean': 3.6517837047576904, 'sens_p99': 3.960620403289795, 'nec_mean': 3.306483030319214, 'nec_p99': 3.6605947017669678, 'critical_nodes': 987, 'critical_interactive_nodes': 792, 'nodes': 25288, 'selection_score': 0.5}, 'training': {'tcnp': 1.0, 'tcnp_i': 1.0, 'micro_tcnp': 1.0, 'micro_tcnp_i': 1.0, 'tisl': 1.0, 'keep_rate': 1.0, 'abstract_rate': 0.0, 'remove_rate': 0.0, 'sensitivity_precision': 0.0, 'sensitivity_recall': 0.0, 'hard_conflict_abstract_recall': 0.0, 'sens_mae': 3.721505764022894, 'nec_mae': 3.122609839199429, 'sens_mean': 3.710306406021118, 'sens_p99': 3.944516658782959, 'nec_mean': 3.371825695037842, 'nec_p99': 3.6392669677734375, 'critical_nodes': 3059, 'critical_interactive_nodes': 2324, 'nodes': 86122, 'selection_score': 0.5}, 'selected_epoch': 1}
+unique_balanced_l1 1/40: loss=5.5387, val micro_TCNP=1.0000, TISL=1.2266, K/A/R=0.000/1.000/0.000
+unique_balanced_l1 5/40: loss=2.9430, val micro_TCNP=1.0000, TISL=1.2116, K/A/R=0.543/0.457/0.000
+unique_balanced_l1 10/40: loss=2.3226, val micro_TCNP=1.0000, TISL=1.2428, K/A/R=0.817/0.183/0.000
+unique_balanced_l1 15/40: loss=1.9473, val micro_TCNP=1.0000, TISL=1.2434, K/A/R=0.886/0.114/0.000
+unique_balanced_l1 20/40: loss=1.6349, val micro_TCNP=1.0000, TISL=1.2462, K/A/R=0.871/0.129/0.000
+unique_balanced_l1 25/40: loss=1.5420, val micro_TCNP=1.0000, TISL=1.2462, K/A/R=0.890/0.110/0.000
+unique_balanced_l1 30/40: loss=1.3717, val micro_TCNP=1.0000, TISL=1.2462, K/A/R=0.635/0.114/0.251
+unique_balanced_l1 35/40: loss=1.3068, val micro_TCNP=1.0000, TISL=1.2462, K/A/R=0.550/0.106/0.344
+unique_balanced_l1 40/40: loss=1.3137, val micro_TCNP=1.0000, TISL=1.2483, K/A/R=0.413/0.106/0.481
+BEST unique_balanced_l1: {'validation': {'tcnp': 1.0, 'tcnp_i': 1.0, 'micro_tcnp': 1.0, 'micro_tcnp_i': 1.0, 'tisl': 1.2115694284439087, 'keep_rate': 0.542708003796267, 'abstract_rate': 0.457291996203733, 'remove_rate': 0.0, 'sensitivity_precision': 0.07843306814251125, 'sensitivity_recall': 0.9628450106157113, 'hard_conflict_abstract_recall': 0.9090909090909091, 'sens_mae': 4.264311499929021, 'nec_mae': 4.191875554307734, 'sens_mean': 4.501986026763916, 'sens_p99': 8.973257064819336, 'nec_mean': 4.766674518585205, 'nec_p99': 6.3807477951049805, 'critical_nodes': 987, 'critical_interactive_nodes': 792, 'nodes': 25288, 'selection_score': 0.39421528577804565}, 'training': {'tcnp': 1.0, 'tcnp_i': 1.0, 'micro_tcnp': 1.0, 'micro_tcnp_i': 1.0, 'tisl': 0.5113080739974976, 'keep_rate': 0.6746011472097722, 'abstract_rate': 0.32539885279022784, 'remove_rate': 0.0, 'sensitivity_precision': 0.06719240650870682, 'sensitivity_recall': 0.91452161243322, 'hard_conflict_abstract_recall': 0.8608695652173913, 'sens_mae': 3.8551286704607635, 'nec_mae': 4.204936592210306, 'sens_mean': 3.9951329231262207, 'sens_p99': 8.836626052856445, 'nec_mean': 4.698910236358643, 'nec_p99': 6.926657199859619, 'critical_nodes': 3059, 'critical_interactive_nodes': 2324, 'nodes': 86122, 'selection_score': 0.7443459630012512}, 'selected_epoch': 5}
+unique_balanced_ce 1/40: loss=4.6056, val micro_TCNP=1.0000, TISL=1.2266, K/A/R=0.000/1.000/0.000
+unique_balanced_ce 5/40: loss=2.3164, val micro_TCNP=1.0000, TISL=1.2400, K/A/R=0.661/0.339/0.000
+unique_balanced_ce 10/40: loss=1.3550, val micro_TCNP=1.0000, TISL=1.2267, K/A/R=0.844/0.156/0.000
+unique_balanced_ce 15/40: loss=0.8118, val micro_TCNP=1.0000, TISL=1.2448, K/A/R=0.783/0.126/0.091
+unique_balanced_ce 20/40: loss=0.5811, val micro_TCNP=1.0000, TISL=1.2482, K/A/R=0.553/0.122/0.326
+unique_balanced_ce 25/40: loss=0.4868, val micro_TCNP=1.0000, TISL=1.2513, K/A/R=0.527/0.105/0.368
+unique_balanced_ce 30/40: loss=0.3280, val micro_TCNP=1.0000, TISL=1.2051, K/A/R=0.533/0.076/0.391
+unique_balanced_ce 35/40: loss=0.2917, val micro_TCNP=0.9970, TISL=1.0732, K/A/R=0.443/0.071/0.487
+unique_balanced_ce 40/40: loss=0.2535, val micro_TCNP=0.9919, TISL=0.9673, K/A/R=0.371/0.059/0.570
+BEST unique_balanced_ce: {'validation': {'tcnp': 0.9957642953905986, 'tcnp_i': 0.9957565186151607, 'micro_tcnp': 0.9918946301925026, 'micro_tcnp_i': 0.98989898989899, 'tisl': 0.9672946333885193, 'keep_rate': 0.37104555520404936, 'abstract_rate': 0.05939576083517874, 'remove_rate': 0.5695586839607719, 'sensitivity_precision': 0.4976608187134503, 'sensitivity_recall': 0.9033970276008493, 'hard_conflict_abstract_recall': 0.3939393939393939, 'sens_mae': 0.38603010331479404, 'nec_mae': 1.266448666875176, 'sens_mean': 0.6521936655044556, 'sens_p99': 9.943951606750488, 'nec_mean': 1.8030446767807007, 'nec_p99': 8.510124206542969, 'critical_nodes': 987, 'critical_interactive_nodes': 792, 'nodes': 25288, 'selection_score': 0.5082473134982429}, 'training': {'tcnp': 0.9998505499760879, 'tcnp_i': 1.0, 'micro_tcnp': 0.998365478914678, 'micro_tcnp_i': 1.0, 'tisl': 0.42790400981903076, 'keep_rate': 0.3977148696035856, 'abstract_rate': 0.05105547943614872, 'remove_rate': 0.5512296509602657, 'sensitivity_precision': 0.4197200494030465, 'sensitivity_recall': 0.9902865468674114, 'hard_conflict_abstract_recall': 1.0, 'sens_mae': 0.3532588739307218, 'nec_mae': 1.2505183578359746, 'sens_mean': 0.5457921624183655, 'sens_p99': 9.784200668334961, 'nec_mean': 1.8288406133651733, 'nec_p99': 9.470588684082031, 'critical_nodes': 3059, 'critical_interactive_nodes': 2324, 'nodes': 86122, 'selection_score': 0.7844134740051626}, 'selected_epoch': 40}
+Training complete; test labels/predictions have not been evaluated.

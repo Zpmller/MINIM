@@ -1,0 +1,10 @@
+Step 1/5: loading manifest
+Step 1/5: sample overlap train-test = 0
+Step 2/5: featurizing variants
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 2596.62it/s]
+Step 3/5: training
+Step 3/5: epoch 1/1 | train_loss=9.6873 | val_loss=9.5643 | val_tcnp=1.0000 | val_tisl=1.0000
+Step 4/5: saving checkpoint and split
+Step 5/5: done
+Saved checkpoint: runs/smoke_gat_bs8/model.pt
+Saved split: runs/smoke_gat_bs8/split.json

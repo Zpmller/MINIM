@@ -1,0 +1,16 @@
+===== paper-aligned figure3 =====
+Step 1/3: collecting policy actions by semantic bucket
+Step 1/3: progress 50/452
+Step 1/3: progress 100/452
+Step 1/3: progress 150/452
+Step 1/3: progress 200/452
+Step 1/3: progress 250/452
+Step 1/3: progress 300/452
+Step 1/3: progress 350/452
+Step 1/3: progress 400/452
+Step 1/3: progress 450/452
+Step 1/3: progress 452/452
+Step 2/3: computing proportions
+Step 3/3: rendering figure
+Saved results/paper_aligned/figure3_policy_distribution.csv
+Saved results/paper_aligned/figure3_policy_distribution.png

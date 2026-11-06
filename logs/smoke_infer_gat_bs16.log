@@ -1,0 +1,7 @@
+Step 1/4: loading model
+Step 2/4: resolving split rows
+Step 3/4: running inference on 3 variants
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 3213.19it/s]
+Step 3/4: progress 3/3
+Step 4/4: done
+Predictions saved to runs/smoke_gat_bs16/predictions_test.jsonl

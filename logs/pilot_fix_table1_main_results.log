@@ -1,0 +1,11 @@
+Step 1/4: loading model and test rows
+Step 2/4: computing node predictions for 34 variants
+Step 3/4: evaluating policies
+Step 4/4: done. Table 1 metrics
+Method,TCNP,TCNP-I,TISL
+Full Observation,1.0000,1.0000,1.0000
+Random Budget,0.2773,0.3582,0.2283
+Sensitivity-Only,0.1324,0.2020,0.0000
+Necessity-Only,0.6342,0.7526,0.0790
+MINIM,0.7533,0.8704,0.1173
+Saved results/pilot_fix/table1.csv

@@ -1,0 +1,8 @@
+test_diagnostic_objective_matches_original_and_cli (test_causal27_diagnostics.CausalObjectiveTests) ... ok
+test_fractional_labels_are_not_silently_truncated (test_causal27_diagnostics.CausalObjectiveTests) ... ok
+test_wrong_saturated_nonzero_bin_can_have_large_l1_error_but_tiny_gradient (test_causal27_diagnostics.CausalObjectiveTests) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 1.633s
+
+OK

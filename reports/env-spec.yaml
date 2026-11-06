@@ -1,0 +1,17 @@
+base: "WSL2 Ubuntu 22.04, CPython 3.10, NVIDIA CUDA-capable PyTorch (cu128 wheels)"
+system_pkgs: []
+pip_phases:
+  - ["torch==2.10.0+cu128", "--index-url https://download.pytorch.org/whl/cu128"]
+  - ["torch-geometric", "sentence-transformers", "matplotlib", "numpy"]
+env:
+  OMP_NUM_THREADS: "2"
+  MKL_NUM_THREADS: "2"
+run_commands:
+  - ".venv/bin/pip freeze > reports/environment-freeze.txt"
+weight_dirs: {}
+smoke:
+  import_names: [torch, torch_geometric, sentence_transformers, matplotlib, numpy]
+  gpu_tests:
+    - cmd: ".venv/bin/python scripts/gpu_witness.py"
+      expect: "^WITNESS"
+  cli_checks: [nvidia-smi]

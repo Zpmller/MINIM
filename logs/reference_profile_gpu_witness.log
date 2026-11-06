@@ -1,0 +1,1 @@
+WITNESS torch.__version__='2.10.0+cu128' torch.version.cuda='12.8' device=NVIDIA GeForce RTX 3060 Laptop GPU gat_shape=(32,) loss=49.664780 peak_mb=18.3

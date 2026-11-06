@@ -1,0 +1,39 @@
+# Python build / cache
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Trained checkpoints, run artifacts, intermediate predictions
+runs/
+*.pt
+data/
+data_paper_aligned/
+data_smoke/
+.venv/
+logs/
+.aris/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.*
+credentials.*
+**/huggingface/
+**/hf_cache/
+**/.cache/huggingface/
+
+# Experiment outputs
+results/
+results_*/
+*.npz
+*.npy
+
+# Author-identifying / unpublished documents
+*.pdf
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/

@@ -1,0 +1,15 @@
+test_diagnostic_objective_matches_original_and_cli (test_causal27_diagnostics.CausalObjectiveTests) ... ok
+test_fractional_labels_are_not_silently_truncated (test_causal27_diagnostics.CausalObjectiveTests) ... ok
+test_wrong_saturated_nonzero_bin_can_have_large_l1_error_but_tiny_gradient (test_causal27_diagnostics.CausalObjectiveTests) ... ok
+test_unequal_graph_sizes_match_full_batch_gradient (test_gradient_accumulation.GradientAccumulationTests) ... <PROJECT>/.venv/lib/python3.10/site-packages/torch/jit/_script.py:1480: DeprecationWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+ok
+test_colliding_tasks_become_distinct_without_changing_text_or_scalars (test_training_repairs.TrainingRepairTests) ... ok
+test_cross_entropy_has_recovery_gradient_at_collapsed_logits (test_training_repairs.TrainingRepairTests) ... ok
+test_prior_correction_recovers_posterior_and_does_not_boost_absent_classes (test_training_repairs.TrainingRepairTests) ... ok
+test_unknown_task_is_rejected_instead_of_aliased (test_training_repairs.TrainingRepairTests) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 3.839s
+
+OK

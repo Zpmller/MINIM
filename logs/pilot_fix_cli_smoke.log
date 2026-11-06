@@ -1,0 +1,10 @@
+Step 1/5: loading manifest
+Step 1/5: sample overlap train-test = 0
+Step 2/5: featurizing variants
+Step 2/5: cached 93/93 train/validation graphs
+Step 3/5: training
+Step 3/5: epoch 1/1 | train_loss=4.6266 | val_loss=4.4905 | val_tcnp=0.0000 | val_tisl=0.0000
+Step 4/5: saving checkpoint and split
+Step 5/5: done
+Saved checkpoint: runs/pilot_fix/cli_smoke/model.pt
+Saved split: runs/pilot_fix/cli_smoke/split.json

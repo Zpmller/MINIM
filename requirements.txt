@@ -1,0 +1,5 @@
+numpy
+torch
+torch-geometric
+sentence-transformers
+matplotlib

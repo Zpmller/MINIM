@@ -1,0 +1,13 @@
+===== table1 =====
+Step 1/4: loading model and test rows
+Step 2/4: computing node predictions for 484 variants
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 1569.63it/s]
+Step 3/4: evaluating policies
+Step 4/4: done. Table 1 metrics
+Method,TCNP,TCNP-I,TISL
+Full Observation,1.0000,1.0000,1.0000
+Random Budget,0.2284,0.2346,0.1971
+Sensitivity-Only,0.0522,0.0582,0.0268
+Necessity-Only,0.3858,0.3829,0.7247
+MINIM,0.0331,0.0393,0.0000
+Saved results/table1.csv

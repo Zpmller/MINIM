@@ -1,0 +1,21 @@
+validation: 100/629
+validation: 200/629
+validation: 300/629
+validation: 400/629
+validation: 500/629
+validation: 600/629
+validation: 629/629
+Validation-selected policy: {'tau_nec': 0.25, 'tau_sens': 7, 'tcnp': 0.9812353539346779, 'tcnp_i': 0.9933505711560368, 'tisl': 0.03875314448211747, 'micro_tcnp': 0.9833590138674885, 'micro_tcnp_i': 0.9856553217403072, 'nodes': 486971, 'variants': 629, 'sensitivity_recall': 0.5557092149541327, 'hard_conflict_abstract_recall': 0.25735294117647056, 'keep_rate': 0.1566417712759076, 'abstract_rate': 0.005363769095079584, 'remove_rate': 0.8379944596290128}
+test: 100/484
+test: 200/484
+test: 300/484
+test: 400/484
+test: 484/484
+Exported selected table1_main_results
+Exported selected table3_task_semantics
+Exported selected table4_abstraction_ablation
+Exported selected table10_domain_specific
+Exported selected figure2_threshold_sweep
+Exported selected figure3_policy_distribution
+Exported fixed_1_5 table1_main_results
+Completed: {'tcnp': 0.9899397728395256, 'tcnp_i': 0.9911058160514445, 'tisl': 0.13673789151907095, 'micro_tcnp': 0.9917478216299334, 'micro_tcnp_i': 0.9962701328058774, 'nodes': 696266, 'variants': 484, 'sensitivity_recall': 0.32604679802955666, 'hard_conflict_abstract_recall': 0.2764976958525346, 'keep_rate': 0.141447377869952, 'abstract_rate': 0.0020595576977764244, 'remove_rate': 0.8564930644322716} fixed official thresholds: {'tcnp': 0.9801667065046746, 'tcnp_i': 0.9851722742904685, 'tisl': 0.07512788214872733, 'micro_tcnp': 0.9776524859046642, 'micro_tcnp_i': 0.9933314495620231, 'nodes': 696266, 'variants': 484, 'sensitivity_recall': 0.48460591133004927, 'hard_conflict_abstract_recall': 0.31981566820276497, 'keep_rate': 0.13011693806677332, 'abstract_rate': 0.003481428074902408, 'remove_rate': 0.8664016338583242}

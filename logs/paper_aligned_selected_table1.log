@@ -1,0 +1,12 @@
+===== paper-aligned selected table1 (tau_nec=0.0) =====
+Step 1/4: loading model and test rows
+Step 2/4: computing node predictions for 452 variants
+Step 3/4: evaluating policies
+Step 4/4: done. Table 1 metrics
+Method,TCNP,TCNP-I,TISL
+Full Observation,1.0000,1.0000,1.0000
+Random Budget,0.2435,0.2447,0.2053
+Sensitivity-Only,0.0547,0.0550,0.0248
+Necessity-Only,0.3708,0.3668,0.7753
+MINIM,1.0000,1.0000,1.0000
+Saved results/paper_aligned_selected/table1.csv
